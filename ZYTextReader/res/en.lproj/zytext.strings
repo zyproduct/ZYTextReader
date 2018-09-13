@@ -1,0 +1,18 @@
+/* 
+  zytext.strings
+  ZYTextReader
+
+  Created by LinZiYuan on 2018/9/12.
+  Copyright © 2018年 LinZiYuan. All rights reserved.
+*/
+
+"copy" = "复制";
+"delete" = "删除";
+"tag" = "标注";
+"cidian" = "词典";
+"baike" = "百科";
+"menu" = "目录";
+"endPlay" = "结束播放";
+
+"queryFail" = "查询失败";
+

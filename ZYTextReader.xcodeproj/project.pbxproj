@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A305FB92108791200917D66 /* ZYControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A305FB82108791200917D66 /* ZYControlView.m */; };
+		0A3074C32109607C00DD2AC4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3074C22109607C00DD2AC4 /* back.png */; };
+		0A3074EC2109799500DD2AC4 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3074EB2109799500DD2AC4 /* menu@2x.png */; };
+		0A3074EF2109AF7600DD2AC4 /* ZYTRChapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3074EE2109AF7600DD2AC4 /* ZYTRChapterVC.m */; };
+		0A3C00C720FDCD0D002E4959 /* ZYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C00C620FDCD0D002E4959 /* ZYTextLayout.m */; };
+		0A3F7E84210036D300E9CCAB /* ZYTRSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F7E83210036D300E9CCAB /* ZYTRSelectionView.m */; };
+		0A41805E210AB33300C96712 /* ZYTRChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A41805D210AB33300C96712 /* ZYTRChapterCell.m */; };
+		0A454581211ACD3B009F5E48 /* ZYTRFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A454580211ACD3B009F5E48 /* ZYTRFunctionView.m */; };
+		0A48A1F2210EDE3C0029BDAF /* ZYTRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48A1F1210EDE3C0029BDAF /* ZYTRManager.m */; };
+		0A49FEEB2123B692009421EF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FEEA2123B692009421EF /* libstdc++.6.0.9.tbd */; };
+		0A49FEED2123B6D0009421EF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FEEC2123B6D0009421EF /* libc++.tbd */; };
+		0A49FEEF2123B6DF009421EF /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FEEE2123B6DF009421EF /* libz.1.2.5.tbd */; };
+		0A49FEF12123B711009421EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FEF02123B711009421EF /* AudioToolbox.framework */; };
+		0A49FF232123C63D009421EF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FF222123C63D009421EF /* CoreTelephony.framework */; };
+		0A49FF252123C667009421EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FF242123C667009421EF /* AVFoundation.framework */; };
+		0A49FF272123C6D3009421EF /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FF262123C6D3009421EF /* libiconv.2.4.0.tbd */; };
+		0A49FF292123C729009421EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A49FF282123C728009421EF /* SystemConfiguration.framework */; };
+		0A526F692147C46E0018D7E6 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A526F682147C46E0018D7E6 /* close@2x.png */; };
+		0A58461B211142A800ADAC9E /* NSString+zyPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58461A211142A800ADAC9E /* NSString+zyPinyin.m */; };
+		0A58E257213E2D2400682A90 /* ZYChapterTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58E256213E2D2400682A90 /* ZYChapterTagCell.m */; };
+		0A58E25A213E36DF00682A90 /* ZYChapterTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58E259213E36DF00682A90 /* ZYChapterTitleCell.m */; };
+		0A631D2920FC29E600527118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D2820FC29E600527118 /* AppDelegate.m */; };
+		0A631D2C20FC29E600527118 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D2B20FC29E600527118 /* ViewController.mm */; };
+		0A631D2F20FC29E600527118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A631D2D20FC29E600527118 /* Main.storyboard */; };
+		0A631D3120FC29E800527118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A631D3020FC29E800527118 /* Assets.xcassets */; };
+		0A631D3420FC29E800527118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A631D3220FC29E800527118 /* LaunchScreen.storyboard */; };
+		0A631D3720FC29E800527118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D3620FC29E800527118 /* main.m */; };
+		0A631D4120FC29E800527118 /* ZYTextReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D4020FC29E800527118 /* ZYTextReaderTests.m */; };
+		0A631D4C20FC29E800527118 /* ZYTextReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D4B20FC29E800527118 /* ZYTextReaderUITests.m */; };
+		0A631D6420FC36A000527118 /* ZYTextReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D6320FC36A000527118 /* ZYTextReaderView.m */; };
+		0A631D6720FC3B4200527118 /* ZYTRParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D6620FC3B4200527118 /* ZYTRParserConfig.m */; };
+		0A631D6A20FC42C300527118 /* ZYTRParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D6920FC42C300527118 /* ZYTRParser.m */; };
+		0A631D6D20FC436C00527118 /* ZYTRData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D6C20FC436C00527118 /* ZYTRData.m */; };
+		0A631D7020FC703700527118 /* UIView+ZYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D6F20FC703700527118 /* UIView+ZYFrame.m */; };
+		0A631D7F20FC9E7F00527118 /* ZYMangifiterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A631D7E20FC9E7F00527118 /* ZYMangifiterView.m */; };
+		0A65F5BB2125538000E04754 /* ZYTRTTSCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A65F5BA2125538000E04754 /* ZYTRTTSCoverView.m */; };
+		0A68204F210565AE00030694 /* ZYTRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68204E210565AE00030694 /* ZYTRViewController.m */; };
+		0A682052210574B900030694 /* ZYTRPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A682051210574B900030694 /* ZYTRPageViewController.m */; };
+		0A6820592105AA9700030694 /* ZYRederModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6820582105AA9700030694 /* ZYRederModel.m */; };
+		0A68205C2105AB2100030694 /* ZYChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68205B2105AB2100030694 /* ZYChapterModel.m */; };
+		0A68205F2105BEAE00030694 /* ZYTRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68205E2105BEAE00030694 /* ZYTRCommon.m */; };
+		0A6F382A212E7F130011CC89 /* ZYSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F3829212E7F130011CC89 /* ZYSectionModel.m */; };
+		0A9067CF2134FC8200B3E6AD /* book1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A9067C72134FC8200B3E6AD /* book1.json */; };
+		0A9067D02134FC8200B3E6AD /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9067C82134FC8200B3E6AD /* pic.png */; };
+		0A9067D12134FC8200B3E6AD /* cover_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A9067C92134FC8200B3E6AD /* cover_1.jpg */; };
+		0A9102FE21215C5800033457 /* ZYTRDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9102FD21215C5800033457 /* ZYTRDataBase.m */; };
+		0AE067202148FA1A0009C22A /* zytext.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE067222148FA1A0009C22A /* zytext.strings */; };
+		0AE0674621490FAE0009C22A /* NYTPhotoViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AE0672721490FAE0009C22A /* NYTPhotoViewer.bundle */; };
+		0AE0674721490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0672921490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.m */; };
+		0AE0674821490FAE0009C22A /* NYTPhotosOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0672A21490FAE0009C22A /* NYTPhotosOverlayView.m */; };
+		0AE0674921490FAE0009C22A /* NYTPhotoTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0672B21490FAE0009C22A /* NYTPhotoTransitionAnimator.m */; };
+		0AE0674A21490FAE0009C22A /* NSBundle+NYTPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0672D21490FAE0009C22A /* NSBundle+NYTPhotoViewer.m */; };
+		0AE0674B21490FAE0009C22A /* NYTPhotoTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0672F21490FAE0009C22A /* NYTPhotoTransitionController.m */; };
+		0AE0674C21490FAE0009C22A /* NYTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0673021490FAE0009C22A /* NYTPhotoViewController.m */; };
+		0AE0674D21490FAE0009C22A /* NYTPhotoCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0673321490FAE0009C22A /* NYTPhotoCaptionView.m */; };
+		0AE0674E21490FAE0009C22A /* NYTPhotoDismissalInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0673821490FAE0009C22A /* NYTPhotoDismissalInteractionController.m */; };
+		0AE0674F21490FAE0009C22A /* NYTPhotoViewerArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0673921490FAE0009C22A /* NYTPhotoViewerArrayDataSource.m */; };
+		0AE0675021490FAE0009C22A /* NYTScalingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0673E21490FAE0009C22A /* NYTScalingImageView.m */; };
+		0AE0675121490FAE0009C22A /* NYTPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0674521490FAE0009C22A /* NYTPhotosViewController.m */; };
+		0AE06754214912530009C22A /* NYTPhotoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE06753214912530009C22A /* NYTPhotoData.m */; };
+		0AFE40B7212A6E7200A6DB7E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE40B6212A6E7200A6DB7E /* AdSupport.framework */; };
+		AD1D18C4019C03BEA7565EE8 /* libPods-ZYTextReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C0B906F33BA638942BB08 /* libPods-ZYTextReader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A631D3D20FC29E800527118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A631D1C20FC29E600527118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A631D2320FC29E600527118;
+			remoteInfo = ZYTextReader;
+		};
+		0A631D4820FC29E800527118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A631D1C20FC29E600527118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A631D2320FC29E600527118;
+			remoteInfo = ZYTextReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A305FB72108791200917D66 /* ZYControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYControlView.h; sourceTree = "<group>"; };
+		0A305FB82108791200917D66 /* ZYControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYControlView.m; sourceTree = "<group>"; };
+		0A3074C22109607C00DD2AC4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		0A3074EB2109799500DD2AC4 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		0A3074ED2109AF7600DD2AC4 /* ZYTRChapterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRChapterVC.h; sourceTree = "<group>"; };
+		0A3074EE2109AF7600DD2AC4 /* ZYTRChapterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRChapterVC.m; sourceTree = "<group>"; };
+		0A3C00C520FDCD0D002E4959 /* ZYTextLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTextLayout.h; sourceTree = "<group>"; };
+		0A3C00C620FDCD0D002E4959 /* ZYTextLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTextLayout.m; sourceTree = "<group>"; };
+		0A3F7E82210036D300E9CCAB /* ZYTRSelectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRSelectionView.h; sourceTree = "<group>"; };
+		0A3F7E83210036D300E9CCAB /* ZYTRSelectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRSelectionView.m; sourceTree = "<group>"; };
+		0A41805C210AB33300C96712 /* ZYTRChapterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRChapterCell.h; sourceTree = "<group>"; };
+		0A41805D210AB33300C96712 /* ZYTRChapterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRChapterCell.m; sourceTree = "<group>"; };
+		0A45457F211ACD3B009F5E48 /* ZYTRFunctionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRFunctionView.h; sourceTree = "<group>"; };
+		0A454580211ACD3B009F5E48 /* ZYTRFunctionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRFunctionView.m; sourceTree = "<group>"; };
+		0A48A1F0210EDE3C0029BDAF /* ZYTRManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRManager.h; sourceTree = "<group>"; };
+		0A48A1F1210EDE3C0029BDAF /* ZYTRManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRManager.m; sourceTree = "<group>"; };
+		0A49FEEA2123B692009421EF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0A49FEEC2123B6D0009421EF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0A49FEEE2123B6DF009421EF /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		0A49FEF02123B711009421EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A49FF202123C555009421EF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A49FF222123C63D009421EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0A49FF242123C667009421EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A49FF262123C6D3009421EF /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		0A49FF282123C728009421EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A526F682147C46E0018D7E6 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		0A584619211142A800ADAC9E /* NSString+zyPinyin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+zyPinyin.h"; sourceTree = "<group>"; };
+		0A58461A211142A800ADAC9E /* NSString+zyPinyin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+zyPinyin.m"; sourceTree = "<group>"; };
+		0A58E255213E2D2400682A90 /* ZYChapterTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYChapterTagCell.h; sourceTree = "<group>"; };
+		0A58E256213E2D2400682A90 /* ZYChapterTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYChapterTagCell.m; sourceTree = "<group>"; };
+		0A58E258213E36DF00682A90 /* ZYChapterTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYChapterTitleCell.h; sourceTree = "<group>"; };
+		0A58E259213E36DF00682A90 /* ZYChapterTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYChapterTitleCell.m; sourceTree = "<group>"; };
+		0A631D2420FC29E600527118 /* ZYTextReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYTextReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A631D2720FC29E600527118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A631D2820FC29E600527118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A631D2A20FC29E600527118 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A631D2B20FC29E600527118 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		0A631D2E20FC29E600527118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A631D3020FC29E800527118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A631D3320FC29E800527118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A631D3520FC29E800527118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A631D3620FC29E800527118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A631D3C20FC29E800527118 /* ZYTextReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYTextReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A631D4020FC29E800527118 /* ZYTextReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTextReaderTests.m; sourceTree = "<group>"; };
+		0A631D4220FC29E800527118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A631D4720FC29E800527118 /* ZYTextReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYTextReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A631D4B20FC29E800527118 /* ZYTextReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTextReaderUITests.m; sourceTree = "<group>"; };
+		0A631D4D20FC29E800527118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A631D6220FC36A000527118 /* ZYTextReaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTextReaderView.h; sourceTree = "<group>"; };
+		0A631D6320FC36A000527118 /* ZYTextReaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTextReaderView.m; sourceTree = "<group>"; };
+		0A631D6520FC3B4200527118 /* ZYTRParserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRParserConfig.h; sourceTree = "<group>"; };
+		0A631D6620FC3B4200527118 /* ZYTRParserConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRParserConfig.m; sourceTree = "<group>"; };
+		0A631D6820FC42C300527118 /* ZYTRParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRParser.h; sourceTree = "<group>"; };
+		0A631D6920FC42C300527118 /* ZYTRParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRParser.m; sourceTree = "<group>"; };
+		0A631D6B20FC436C00527118 /* ZYTRData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRData.h; sourceTree = "<group>"; };
+		0A631D6C20FC436C00527118 /* ZYTRData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRData.m; sourceTree = "<group>"; };
+		0A631D6E20FC703700527118 /* UIView+ZYFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYFrame.h"; sourceTree = "<group>"; };
+		0A631D6F20FC703700527118 /* UIView+ZYFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYFrame.m"; sourceTree = "<group>"; };
+		0A631D7D20FC9E7E00527118 /* ZYMangifiterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMangifiterView.h; sourceTree = "<group>"; };
+		0A631D7E20FC9E7F00527118 /* ZYMangifiterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMangifiterView.m; sourceTree = "<group>"; };
+		0A65F5B92125538000E04754 /* ZYTRTTSCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRTTSCoverView.h; sourceTree = "<group>"; };
+		0A65F5BA2125538000E04754 /* ZYTRTTSCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRTTSCoverView.m; sourceTree = "<group>"; };
+		0A68204D210565AE00030694 /* ZYTRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRViewController.h; sourceTree = "<group>"; };
+		0A68204E210565AE00030694 /* ZYTRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRViewController.m; sourceTree = "<group>"; };
+		0A682050210574B900030694 /* ZYTRPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRPageViewController.h; sourceTree = "<group>"; };
+		0A682051210574B900030694 /* ZYTRPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRPageViewController.m; sourceTree = "<group>"; };
+		0A6820572105AA9700030694 /* ZYRederModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRederModel.h; sourceTree = "<group>"; };
+		0A6820582105AA9700030694 /* ZYRederModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRederModel.m; sourceTree = "<group>"; };
+		0A68205A2105AB2100030694 /* ZYChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYChapterModel.h; sourceTree = "<group>"; };
+		0A68205B2105AB2100030694 /* ZYChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYChapterModel.m; sourceTree = "<group>"; };
+		0A68205D2105BEAE00030694 /* ZYTRCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRCommon.h; sourceTree = "<group>"; };
+		0A68205E2105BEAE00030694 /* ZYTRCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRCommon.m; sourceTree = "<group>"; };
+		0A6F3828212E7F130011CC89 /* ZYSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSectionModel.h; sourceTree = "<group>"; };
+		0A6F3829212E7F130011CC89 /* ZYSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSectionModel.m; sourceTree = "<group>"; };
+		0A9067C72134FC8200B3E6AD /* book1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book1.json; sourceTree = "<group>"; };
+		0A9067C82134FC8200B3E6AD /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		0A9067C92134FC8200B3E6AD /* cover_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_1.jpg; sourceTree = "<group>"; };
+		0A9102FC21215C5800033457 /* ZYTRDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTRDataBase.h; sourceTree = "<group>"; };
+		0A9102FD21215C5800033457 /* ZYTRDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTRDataBase.m; sourceTree = "<group>"; };
+		0AE067212148FA1A0009C22A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/zytext.strings; sourceTree = "<group>"; };
+		0AE067232148FA430009C22A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/zytext.strings"; sourceTree = "<group>"; };
+		0AE0672721490FAE0009C22A /* NYTPhotoViewer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NYTPhotoViewer.bundle; sourceTree = "<group>"; };
+		0AE0672821490FAE0009C22A /* NYTPhotoDismissalInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoDismissalInteractionController.h; sourceTree = "<group>"; };
+		0AE0672921490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerSinglePhotoDataSource.m; sourceTree = "<group>"; };
+		0AE0672A21490FAE0009C22A /* NYTPhotosOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotosOverlayView.m; sourceTree = "<group>"; };
+		0AE0672B21490FAE0009C22A /* NYTPhotoTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoTransitionAnimator.m; sourceTree = "<group>"; };
+		0AE0672D21490FAE0009C22A /* NSBundle+NYTPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NYTPhotoViewer.m"; sourceTree = "<group>"; };
+		0AE0672E21490FAE0009C22A /* NSBundle+NYTPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NYTPhotoViewer.h"; sourceTree = "<group>"; };
+		0AE0672F21490FAE0009C22A /* NYTPhotoTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoTransitionController.m; sourceTree = "<group>"; };
+		0AE0673021490FAE0009C22A /* NYTPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewController.m; sourceTree = "<group>"; };
+		0AE0673121490FAE0009C22A /* NYTPhotoViewerArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerArrayDataSource.h; sourceTree = "<group>"; };
+		0AE0673221490FAE0009C22A /* NYTScalingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTScalingImageView.h; sourceTree = "<group>"; };
+		0AE0673321490FAE0009C22A /* NYTPhotoCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoCaptionView.m; sourceTree = "<group>"; };
+		0AE0673421490FAE0009C22A /* NYTPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewer.h; sourceTree = "<group>"; };
+		0AE0673521490FAE0009C22A /* NYTPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotosViewController.h; sourceTree = "<group>"; };
+		0AE0673621490FAE0009C22A /* NYTPhotosOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotosOverlayView.h; sourceTree = "<group>"; };
+		0AE0673721490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerSinglePhotoDataSource.h; sourceTree = "<group>"; };
+		0AE0673821490FAE0009C22A /* NYTPhotoDismissalInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoDismissalInteractionController.m; sourceTree = "<group>"; };
+		0AE0673921490FAE0009C22A /* NYTPhotoViewerArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoViewerArrayDataSource.m; sourceTree = "<group>"; };
+		0AE0673A21490FAE0009C22A /* NYTPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewController.h; sourceTree = "<group>"; };
+		0AE0673B21490FAE0009C22A /* NYTPhotoTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoTransitionController.h; sourceTree = "<group>"; };
+		0AE0673C21490FAE0009C22A /* NYTPhotoTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoTransitionAnimator.h; sourceTree = "<group>"; };
+		0AE0673D21490FAE0009C22A /* NYTPhotoCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoCaptionView.h; sourceTree = "<group>"; };
+		0AE0673E21490FAE0009C22A /* NYTScalingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTScalingImageView.m; sourceTree = "<group>"; };
+		0AE0673F21490FAE0009C22A /* NYTPhotoViewerCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerCore.h; sourceTree = "<group>"; };
+		0AE0674121490FAE0009C22A /* NYTPhotoViewerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoViewerDataSource.h; sourceTree = "<group>"; };
+		0AE0674221490FAE0009C22A /* NYTPhotoCaptionViewLayoutWidthHinting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoCaptionViewLayoutWidthHinting.h; sourceTree = "<group>"; };
+		0AE0674321490FAE0009C22A /* NYTPhotoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoContainer.h; sourceTree = "<group>"; };
+		0AE0674421490FAE0009C22A /* NYTPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhoto.h; sourceTree = "<group>"; };
+		0AE0674521490FAE0009C22A /* NYTPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotosViewController.m; sourceTree = "<group>"; };
+		0AE06752214912530009C22A /* NYTPhotoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYTPhotoData.h; sourceTree = "<group>"; };
+		0AE06753214912530009C22A /* NYTPhotoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoData.m; sourceTree = "<group>"; };
+		0AFE40B6212A6E7200A6DB7E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1FF2B5189281847349E0E86D /* Pods-ZYTextReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYTextReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYTextReader/Pods-ZYTextReader.release.xcconfig"; sourceTree = "<group>"; };
+		523C0B906F33BA638942BB08 /* libPods-ZYTextReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYTextReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6238360155E2BC2BE0CDD6 /* Pods-ZYTextReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYTextReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYTextReader/Pods-ZYTextReader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A631D2120FC29E600527118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE40B7212A6E7200A6DB7E /* AdSupport.framework in Frameworks */,
+				0A49FF292123C729009421EF /* SystemConfiguration.framework in Frameworks */,
+				0A49FF272123C6D3009421EF /* libiconv.2.4.0.tbd in Frameworks */,
+				0A49FF252123C667009421EF /* AVFoundation.framework in Frameworks */,
+				0A49FF232123C63D009421EF /* CoreTelephony.framework in Frameworks */,
+				0A49FEF12123B711009421EF /* AudioToolbox.framework in Frameworks */,
+				0A49FEEF2123B6DF009421EF /* libz.1.2.5.tbd in Frameworks */,
+				0A49FEED2123B6D0009421EF /* libc++.tbd in Frameworks */,
+				0A49FEEB2123B692009421EF /* libstdc++.6.0.9.tbd in Frameworks */,
+				AD1D18C4019C03BEA7565EE8 /* libPods-ZYTextReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D3920FC29E800527118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D4420FC29E800527118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3074C42109703500DD2AC4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0A56CFF72114310E000B1753 /* imageViewer */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0A49FEE92123B692009421EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE40B6212A6E7200A6DB7E /* AdSupport.framework */,
+				0A49FF282123C728009421EF /* SystemConfiguration.framework */,
+				0A49FF262123C6D3009421EF /* libiconv.2.4.0.tbd */,
+				0A49FF242123C667009421EF /* AVFoundation.framework */,
+				0A49FF222123C63D009421EF /* CoreTelephony.framework */,
+				0A49FF202123C555009421EF /* CFNetwork.framework */,
+				0A49FEF02123B711009421EF /* AudioToolbox.framework */,
+				0A49FEEE2123B6DF009421EF /* libz.1.2.5.tbd */,
+				0A49FEEC2123B6D0009421EF /* libc++.tbd */,
+				0A49FEEA2123B692009421EF /* libstdc++.6.0.9.tbd */,
+				523C0B906F33BA638942BB08 /* libPods-ZYTextReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A56CFF72114310E000B1753 /* imageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0672621490FAE0009C22A /* NYTPhotoViewer */,
+			);
+			path = imageViewer;
+			sourceTree = "<group>";
+		};
+		0A58E253213E2CBF00682A90 /* chapter */ = {
+			isa = PBXGroup;
+			children = (
+				0A58E254213E2CD700682A90 /* cell */,
+				0A3074ED2109AF7600DD2AC4 /* ZYTRChapterVC.h */,
+				0A3074EE2109AF7600DD2AC4 /* ZYTRChapterVC.m */,
+			);
+			path = chapter;
+			sourceTree = "<group>";
+		};
+		0A58E254213E2CD700682A90 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0A41805C210AB33300C96712 /* ZYTRChapterCell.h */,
+				0A41805D210AB33300C96712 /* ZYTRChapterCell.m */,
+				0A58E255213E2D2400682A90 /* ZYChapterTagCell.h */,
+				0A58E256213E2D2400682A90 /* ZYChapterTagCell.m */,
+				0A58E258213E36DF00682A90 /* ZYChapterTitleCell.h */,
+				0A58E259213E36DF00682A90 /* ZYChapterTitleCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0A631D1B20FC29E600527118 = {
+			isa = PBXGroup;
+			children = (
+				0A631D2620FC29E600527118 /* ZYTextReader */,
+				0A631D3F20FC29E800527118 /* ZYTextReaderTests */,
+				0A631D4A20FC29E800527118 /* ZYTextReaderUITests */,
+				0A631D2520FC29E600527118 /* Products */,
+				0A49FEE92123B692009421EF /* Frameworks */,
+				584561F404A424A2BED5682E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0A631D2520FC29E600527118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D2420FC29E600527118 /* ZYTextReader.app */,
+				0A631D3C20FC29E800527118 /* ZYTextReaderTests.xctest */,
+				0A631D4720FC29E800527118 /* ZYTextReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A631D2620FC29E600527118 /* ZYTextReader */ = {
+			isa = PBXGroup;
+			children = (
+				0A3074C42109703500DD2AC4 /* libs */,
+				0A6820562105AA3F00030694 /* model */,
+				0A631D5920FC2EC000527118 /* helper */,
+				0A631D6020FC351100527118 /* core */,
+				0A631D6120FC368300527118 /* view */,
+				0A68204C2105655700030694 /* vc */,
+				0A631D2720FC29E600527118 /* AppDelegate.h */,
+				0A631D2820FC29E600527118 /* AppDelegate.m */,
+				0A631D2A20FC29E600527118 /* ViewController.h */,
+				0A631D2B20FC29E600527118 /* ViewController.mm */,
+				0A631D7520FC83C400527118 /* res */,
+				0A631D2D20FC29E600527118 /* Main.storyboard */,
+				0A631D3020FC29E800527118 /* Assets.xcassets */,
+				0A631D3220FC29E800527118 /* LaunchScreen.storyboard */,
+				0A631D3520FC29E800527118 /* Info.plist */,
+				0A631D3620FC29E800527118 /* main.m */,
+			);
+			path = ZYTextReader;
+			sourceTree = "<group>";
+		};
+		0A631D3F20FC29E800527118 /* ZYTextReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D4020FC29E800527118 /* ZYTextReaderTests.m */,
+				0A631D4220FC29E800527118 /* Info.plist */,
+			);
+			path = ZYTextReaderTests;
+			sourceTree = "<group>";
+		};
+		0A631D4A20FC29E800527118 /* ZYTextReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D4B20FC29E800527118 /* ZYTextReaderUITests.m */,
+				0A631D4D20FC29E800527118 /* Info.plist */,
+			);
+			path = ZYTextReaderUITests;
+			sourceTree = "<group>";
+		};
+		0A631D5920FC2EC000527118 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D6E20FC703700527118 /* UIView+ZYFrame.h */,
+				0A631D6F20FC703700527118 /* UIView+ZYFrame.m */,
+				0A68205D2105BEAE00030694 /* ZYTRCommon.h */,
+				0A68205E2105BEAE00030694 /* ZYTRCommon.m */,
+				0A584619211142A800ADAC9E /* NSString+zyPinyin.h */,
+				0A58461A211142A800ADAC9E /* NSString+zyPinyin.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		0A631D6020FC351100527118 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D6520FC3B4200527118 /* ZYTRParserConfig.h */,
+				0A631D6620FC3B4200527118 /* ZYTRParserConfig.m */,
+				0A631D6820FC42C300527118 /* ZYTRParser.h */,
+				0A631D6920FC42C300527118 /* ZYTRParser.m */,
+				0A3C00C520FDCD0D002E4959 /* ZYTextLayout.h */,
+				0A3C00C620FDCD0D002E4959 /* ZYTextLayout.m */,
+				0A48A1F0210EDE3C0029BDAF /* ZYTRManager.h */,
+				0A48A1F1210EDE3C0029BDAF /* ZYTRManager.m */,
+				0A9102FC21215C5800033457 /* ZYTRDataBase.h */,
+				0A9102FD21215C5800033457 /* ZYTRDataBase.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		0A631D6120FC368300527118 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0A631D7D20FC9E7E00527118 /* ZYMangifiterView.h */,
+				0A631D7E20FC9E7F00527118 /* ZYMangifiterView.m */,
+				0A3F7E82210036D300E9CCAB /* ZYTRSelectionView.h */,
+				0A3F7E83210036D300E9CCAB /* ZYTRSelectionView.m */,
+				0A631D6220FC36A000527118 /* ZYTextReaderView.h */,
+				0A631D6320FC36A000527118 /* ZYTextReaderView.m */,
+				0A305FB72108791200917D66 /* ZYControlView.h */,
+				0A305FB82108791200917D66 /* ZYControlView.m */,
+				0A45457F211ACD3B009F5E48 /* ZYTRFunctionView.h */,
+				0A454580211ACD3B009F5E48 /* ZYTRFunctionView.m */,
+				0A65F5B92125538000E04754 /* ZYTRTTSCoverView.h */,
+				0A65F5BA2125538000E04754 /* ZYTRTTSCoverView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0A631D7520FC83C400527118 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				0A9067C22134FC8200B3E6AD /* demo */,
+				0A3074EB2109799500DD2AC4 /* menu@2x.png */,
+				0A3074C22109607C00DD2AC4 /* back.png */,
+				0A526F682147C46E0018D7E6 /* close@2x.png */,
+				0AE067222148FA1A0009C22A /* zytext.strings */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		0A68204C2105655700030694 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				0A58E253213E2CBF00682A90 /* chapter */,
+				0A68204D210565AE00030694 /* ZYTRViewController.h */,
+				0A68204E210565AE00030694 /* ZYTRViewController.m */,
+				0A682050210574B900030694 /* ZYTRPageViewController.h */,
+				0A682051210574B900030694 /* ZYTRPageViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		0A6820562105AA3F00030694 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0A6820572105AA9700030694 /* ZYRederModel.h */,
+				0A6820582105AA9700030694 /* ZYRederModel.m */,
+				0A68205A2105AB2100030694 /* ZYChapterModel.h */,
+				0A68205B2105AB2100030694 /* ZYChapterModel.m */,
+				0A6F3828212E7F130011CC89 /* ZYSectionModel.h */,
+				0A6F3829212E7F130011CC89 /* ZYSectionModel.m */,
+				0A631D6B20FC436C00527118 /* ZYTRData.h */,
+				0A631D6C20FC436C00527118 /* ZYTRData.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0A9067C22134FC8200B3E6AD /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				0A9067C72134FC8200B3E6AD /* book1.json */,
+				0A9067C82134FC8200B3E6AD /* pic.png */,
+				0A9067C92134FC8200B3E6AD /* cover_1.jpg */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		0AE0672621490FAE0009C22A /* NYTPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0674021490FAE0009C22A /* Protocols */,
+				0AE0672C21490FAE0009C22A /* Resource Loading */,
+				0AE0672721490FAE0009C22A /* NYTPhotoViewer.bundle */,
+				0AE0672821490FAE0009C22A /* NYTPhotoDismissalInteractionController.h */,
+				0AE0672921490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.m */,
+				0AE0672A21490FAE0009C22A /* NYTPhotosOverlayView.m */,
+				0AE0672B21490FAE0009C22A /* NYTPhotoTransitionAnimator.m */,
+				0AE0672F21490FAE0009C22A /* NYTPhotoTransitionController.m */,
+				0AE0673021490FAE0009C22A /* NYTPhotoViewController.m */,
+				0AE0673121490FAE0009C22A /* NYTPhotoViewerArrayDataSource.h */,
+				0AE0673221490FAE0009C22A /* NYTScalingImageView.h */,
+				0AE0673321490FAE0009C22A /* NYTPhotoCaptionView.m */,
+				0AE0673421490FAE0009C22A /* NYTPhotoViewer.h */,
+				0AE0673521490FAE0009C22A /* NYTPhotosViewController.h */,
+				0AE0673621490FAE0009C22A /* NYTPhotosOverlayView.h */,
+				0AE0673721490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.h */,
+				0AE0673821490FAE0009C22A /* NYTPhotoDismissalInteractionController.m */,
+				0AE0673921490FAE0009C22A /* NYTPhotoViewerArrayDataSource.m */,
+				0AE0673A21490FAE0009C22A /* NYTPhotoViewController.h */,
+				0AE0673B21490FAE0009C22A /* NYTPhotoTransitionController.h */,
+				0AE0673C21490FAE0009C22A /* NYTPhotoTransitionAnimator.h */,
+				0AE0673D21490FAE0009C22A /* NYTPhotoCaptionView.h */,
+				0AE0673E21490FAE0009C22A /* NYTScalingImageView.m */,
+				0AE0673F21490FAE0009C22A /* NYTPhotoViewerCore.h */,
+				0AE0674521490FAE0009C22A /* NYTPhotosViewController.m */,
+				0AE06752214912530009C22A /* NYTPhotoData.h */,
+				0AE06753214912530009C22A /* NYTPhotoData.m */,
+			);
+			path = NYTPhotoViewer;
+			sourceTree = "<group>";
+		};
+		0AE0672C21490FAE0009C22A /* Resource Loading */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0672D21490FAE0009C22A /* NSBundle+NYTPhotoViewer.m */,
+				0AE0672E21490FAE0009C22A /* NSBundle+NYTPhotoViewer.h */,
+			);
+			path = "Resource Loading";
+			sourceTree = "<group>";
+		};
+		0AE0674021490FAE0009C22A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0AE0674121490FAE0009C22A /* NYTPhotoViewerDataSource.h */,
+				0AE0674221490FAE0009C22A /* NYTPhotoCaptionViewLayoutWidthHinting.h */,
+				0AE0674321490FAE0009C22A /* NYTPhotoContainer.h */,
+				0AE0674421490FAE0009C22A /* NYTPhoto.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		584561F404A424A2BED5682E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB6238360155E2BC2BE0CDD6 /* Pods-ZYTextReader.debug.xcconfig */,
+				1FF2B5189281847349E0E86D /* Pods-ZYTextReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A631D2320FC29E600527118 /* ZYTextReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A631D5020FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReader" */;
+			buildPhases = (
+				CAA6620538B4B8405D457F1B /* [CP] Check Pods Manifest.lock */,
+				0A631D2020FC29E600527118 /* Sources */,
+				0A631D2120FC29E600527118 /* Frameworks */,
+				0A631D2220FC29E600527118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYTextReader;
+			productName = ZYTextReader;
+			productReference = 0A631D2420FC29E600527118 /* ZYTextReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A631D3B20FC29E800527118 /* ZYTextReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A631D5320FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReaderTests" */;
+			buildPhases = (
+				0A631D3820FC29E800527118 /* Sources */,
+				0A631D3920FC29E800527118 /* Frameworks */,
+				0A631D3A20FC29E800527118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A631D3E20FC29E800527118 /* PBXTargetDependency */,
+			);
+			name = ZYTextReaderTests;
+			productName = ZYTextReaderTests;
+			productReference = 0A631D3C20FC29E800527118 /* ZYTextReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A631D4620FC29E800527118 /* ZYTextReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A631D5620FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReaderUITests" */;
+			buildPhases = (
+				0A631D4320FC29E800527118 /* Sources */,
+				0A631D4420FC29E800527118 /* Frameworks */,
+				0A631D4520FC29E800527118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A631D4920FC29E800527118 /* PBXTargetDependency */,
+			);
+			name = ZYTextReaderUITests;
+			productName = ZYTextReaderUITests;
+			productReference = 0A631D4720FC29E800527118 /* ZYTextReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A631D1C20FC29E600527118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LinZiYuan;
+				TargetAttributes = {
+					0A631D2320FC29E600527118 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					0A631D3B20FC29E800527118 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 0A631D2320FC29E600527118;
+					};
+					0A631D4620FC29E800527118 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 0A631D2320FC29E600527118;
+					};
+				};
+			};
+			buildConfigurationList = 0A631D1F20FC29E600527118 /* Build configuration list for PBXProject "ZYTextReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 0A631D1B20FC29E600527118;
+			productRefGroup = 0A631D2520FC29E600527118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A631D2320FC29E600527118 /* ZYTextReader */,
+				0A631D3B20FC29E800527118 /* ZYTextReaderTests */,
+				0A631D4620FC29E800527118 /* ZYTextReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A631D2220FC29E600527118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3074EC2109799500DD2AC4 /* menu@2x.png in Resources */,
+				0A9067CF2134FC8200B3E6AD /* book1.json in Resources */,
+				0A9067D12134FC8200B3E6AD /* cover_1.jpg in Resources */,
+				0AE067202148FA1A0009C22A /* zytext.strings in Resources */,
+				0AE0674621490FAE0009C22A /* NYTPhotoViewer.bundle in Resources */,
+				0A9067D02134FC8200B3E6AD /* pic.png in Resources */,
+				0A631D3420FC29E800527118 /* LaunchScreen.storyboard in Resources */,
+				0A631D3120FC29E800527118 /* Assets.xcassets in Resources */,
+				0A631D2F20FC29E600527118 /* Main.storyboard in Resources */,
+				0A3074C32109607C00DD2AC4 /* back.png in Resources */,
+				0A526F692147C46E0018D7E6 /* close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D3A20FC29E800527118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D4520FC29E800527118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAA6620538B4B8405D457F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYTextReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A631D2020FC29E600527118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE0674A21490FAE0009C22A /* NSBundle+NYTPhotoViewer.m in Sources */,
+				0A631D7F20FC9E7F00527118 /* ZYMangifiterView.m in Sources */,
+				0AE0674E21490FAE0009C22A /* NYTPhotoDismissalInteractionController.m in Sources */,
+				0AE0675021490FAE0009C22A /* NYTScalingImageView.m in Sources */,
+				0AE0674F21490FAE0009C22A /* NYTPhotoViewerArrayDataSource.m in Sources */,
+				0A3F7E84210036D300E9CCAB /* ZYTRSelectionView.m in Sources */,
+				0AE0674B21490FAE0009C22A /* NYTPhotoTransitionController.m in Sources */,
+				0A68205F2105BEAE00030694 /* ZYTRCommon.m in Sources */,
+				0A631D6420FC36A000527118 /* ZYTextReaderView.m in Sources */,
+				0A9102FE21215C5800033457 /* ZYTRDataBase.m in Sources */,
+				0A631D6D20FC436C00527118 /* ZYTRData.m in Sources */,
+				0AE0675121490FAE0009C22A /* NYTPhotosViewController.m in Sources */,
+				0AE0674721490FAE0009C22A /* NYTPhotoViewerSinglePhotoDataSource.m in Sources */,
+				0A58E257213E2D2400682A90 /* ZYChapterTagCell.m in Sources */,
+				0A3C00C720FDCD0D002E4959 /* ZYTextLayout.m in Sources */,
+				0A68205C2105AB2100030694 /* ZYChapterModel.m in Sources */,
+				0A58E25A213E36DF00682A90 /* ZYChapterTitleCell.m in Sources */,
+				0A68204F210565AE00030694 /* ZYTRViewController.m in Sources */,
+				0A6F382A212E7F130011CC89 /* ZYSectionModel.m in Sources */,
+				0A58461B211142A800ADAC9E /* NSString+zyPinyin.m in Sources */,
+				0AE06754214912530009C22A /* NYTPhotoData.m in Sources */,
+				0AE0674821490FAE0009C22A /* NYTPhotosOverlayView.m in Sources */,
+				0A305FB92108791200917D66 /* ZYControlView.m in Sources */,
+				0AE0674921490FAE0009C22A /* NYTPhotoTransitionAnimator.m in Sources */,
+				0A3074EF2109AF7600DD2AC4 /* ZYTRChapterVC.m in Sources */,
+				0A65F5BB2125538000E04754 /* ZYTRTTSCoverView.m in Sources */,
+				0A454581211ACD3B009F5E48 /* ZYTRFunctionView.m in Sources */,
+				0A41805E210AB33300C96712 /* ZYTRChapterCell.m in Sources */,
+				0A682052210574B900030694 /* ZYTRPageViewController.m in Sources */,
+				0A631D2C20FC29E600527118 /* ViewController.mm in Sources */,
+				0A631D3720FC29E800527118 /* main.m in Sources */,
+				0AE0674D21490FAE0009C22A /* NYTPhotoCaptionView.m in Sources */,
+				0A631D6A20FC42C300527118 /* ZYTRParser.m in Sources */,
+				0A631D2920FC29E600527118 /* AppDelegate.m in Sources */,
+				0A48A1F2210EDE3C0029BDAF /* ZYTRManager.m in Sources */,
+				0A631D6720FC3B4200527118 /* ZYTRParserConfig.m in Sources */,
+				0A631D7020FC703700527118 /* UIView+ZYFrame.m in Sources */,
+				0A6820592105AA9700030694 /* ZYRederModel.m in Sources */,
+				0AE0674C21490FAE0009C22A /* NYTPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D3820FC29E800527118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A631D4120FC29E800527118 /* ZYTextReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A631D4320FC29E800527118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A631D4C20FC29E800527118 /* ZYTextReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A631D3E20FC29E800527118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A631D2320FC29E600527118 /* ZYTextReader */;
+			targetProxy = 0A631D3D20FC29E800527118 /* PBXContainerItemProxy */;
+		};
+		0A631D4920FC29E800527118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A631D2320FC29E600527118 /* ZYTextReader */;
+			targetProxy = 0A631D4820FC29E800527118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A631D2D20FC29E600527118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A631D2E20FC29E600527118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A631D3220FC29E800527118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A631D3320FC29E800527118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AE067222148FA1A0009C22A /* zytext.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE067212148FA1A0009C22A /* en */,
+				0AE067232148FA430009C22A /* zh-Hans */,
+			);
+			name = zytext.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A631D4E20FC29E800527118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A631D4F20FC29E800527118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A631D5120FC29E800527118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6238360155E2BC2BE0CDD6 /* Pods-ZYTextReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9E89VMHQT;
+				INFOPLIST_FILE = ZYTextReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYTextReader/libs/baidutts/BDSClientLib",
+					"$(PROJECT_DIR)/ZYTextReader/libs/youdaocidian/translateSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A631D5220FC29E800527118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF2B5189281847349E0E86D /* Pods-ZYTextReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9E89VMHQT;
+				INFOPLIST_FILE = ZYTextReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYTextReader/libs/baidutts/BDSClientLib",
+					"$(PROJECT_DIR)/ZYTextReader/libs/youdaocidian/translateSDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A631D5420FC29E800527118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYTextReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYTextReader.app/ZYTextReader";
+			};
+			name = Debug;
+		};
+		0A631D5520FC29E800527118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYTextReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYTextReader.app/ZYTextReader";
+			};
+			name = Release;
+		};
+		0A631D5720FC29E800527118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYTextReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYTextReader;
+			};
+			name = Debug;
+		};
+		0A631D5820FC29E800527118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYTextReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfresrelease.ZYTextReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYTextReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A631D1F20FC29E600527118 /* Build configuration list for PBXProject "ZYTextReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A631D4E20FC29E800527118 /* Debug */,
+				0A631D4F20FC29E800527118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A631D5020FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A631D5120FC29E800527118 /* Debug */,
+				0A631D5220FC29E800527118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A631D5320FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A631D5420FC29E800527118 /* Debug */,
+				0A631D5520FC29E800527118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A631D5620FC29E800527118 /* Build configuration list for PBXNativeTarget "ZYTextReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A631D5720FC29E800527118 /* Debug */,
+				0A631D5820FC29E800527118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A631D1C20FC29E600527118 /* Project object */;
+}

@@ -1,0 +1,241 @@
+{
+    "bookName": "漫长的中场休息",
+    "bookId": 69001,
+    "ttsRole": 0,
+    "chapters": [
+                 {
+                 "chapter": 1,
+                 "name": "封面",
+                 "type": "cover",
+                 "contents": [
+                              {
+                              "width": "336",
+                              "height": "510",
+                              "name": "cover_1.jpg",
+                              "fullScreen": 1,
+                              "type": "img",
+                              }
+                              ],
+                 },
+                 {
+                 "chapter": 2,
+                 "name": "人性反应",
+                 "type": "chapter",
+                 "contents": [
+                              {
+                              "content": "人性反应\n",
+                              "color": "#FE5C31",
+                              "size": 22,
+                              "type": "txt",
+                              "alignCenter": 1,
+                              },
+                 ],
+                 "sections":[
+                             {
+                             "name":"对话1",
+                             "contents": [
+                                          {
+                                          "content":"对话1\n",
+                                          "color": "#569BEA",
+                                          "size": 20,
+                                          "type": "txt",
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "“一千五百万。”比利和曼戈回到座位上时，听见艾伯特说，“一千五百万的片酬外加百分之十五的毛利分红，一个炙手可热的当红明星确实可以拿到这么多。而希拉里最近就很红。要先有保证，她的经纪人才会让她看。”\n",
+                                          "size": 16,
+                                          "type": "txt",
+                                          "special":[
+                                                     {"sptype":"color",
+                                                     "sprange":"2-4",
+                                                     "spvalue":"#31CF79",
+                                                     },
+                                                     {"sptype":"anotation",
+                                                     "sprange":"29-31",
+                                                     "spvalue":"qian wu",
+                                                     },
+                                          ],
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "“看什么？”塞克斯问。艾伯特先把目光慢慢地转向他，然后才把头转过去。”\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "“剧本，肯尼思。”\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "“可我以为你说过我们没有剧本。”\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "color":"default",
+                                          "content":"“是没有，不过我们有脚本和编剧。既然现在希拉里已经表示有兴趣，咱们可以按照她想要的方向来写。”\n",
+                                          "annotation": "“ shì méi yǒu ， bù guò wǒ men yǒu jiǎo běn hé biān jù 。 jì rán xiàn zài xī lā lǐ yǐ jīng biǎo shì yǒu xìng qù ， zán men kě yǐ àn zhào tā xiǎng yào de fāng xiàng lái xiě 。” \n",
+                                          "size":16,
+                                          "type":"txt"
+                                          },
+                                          {
+                                          "width": "200",
+                                          "height": "287",
+                                          "name": "pic.png",
+                                          "type": "img"
+                                          },
+                                          {
+                                          "color":"default",
+                                          "content":"“我最喜欢听他这样说话。”戴姆说。”\n",
+                                          "annotation": "“ wǒ zuì xǐ huān tīng tā zhè yàng shuō huà 。 ” dài mǔ shuō 。” \n",
+                                          "size":16,
+                                          "type":"txt"
+                                          },
+                                          {
+                                          "color":"default",
+                                          "content":"“听着，剧本不是问题，只要照实写你们的故事就是个精彩的剧本。问题是怎么把这玩意儿送到她手里。”\n",
+                                          "annotation": "“ tīng zhe ， jù běn bù shì wèn tí ， zhǐ yào zhào shí xiě nǐ men de gù shì jiù shì gè jīng cǎi de jù běn 。 wèn tí shì zěn me bǎ zhè wán yì ér sòng dào tā shǒu lǐ 。” \n",
+                                          "size":16,
+                                          "type":"txt"
+                                          },
+                                          {
+                                          "color":"default",
+                                          "content":"“你说过你认识她。”克拉克指出。\n",
+                                          "annotation": "“ nǐ shuō guò nǐ rèn shí tā 。 ” kè lā kè zhǐ chū 。 \n",
+                                          "size":16,
+                                          "type":"txt",
+                                          "crossPage":1,
+                                          },
+                                          {
+                                          "color":"default",
+                                          "content":"“我当然认识她！两个月前我们还在简·方达家里喝得烂醉！可这是公事，伙计们，她看的每样东西都要通过经纪人，而经纪人要等电影公司出具正式邀约才会让她看剧本。那样的话，她知道只要她同意，电影公司就上钩了。她不能被拒绝。”\n",
+                                          "annotation": "“ wǒ dāng rán rèn shí tā ！ liǎng gè yuè qián wǒ men hái zài jiǎn · fāng dá jiā lǐ hē de làn zuì ！ kě zhè shì gōng shì ， huǒ jì men ， tā kàn de měi yàng dōng xī dōu yào tōng guò jīng jì rén ， ér jīng jì rén yào děng diàn yǐng gōng sī chū jù zhèng shì yāo yuē cái huì ràng tā kàn jù běn 。 nà yàng de huà ， tā zhī dào zhǐ yào tā tóng yì ， diàn yǐng gōng sī jiù shàng gōu le 。 tā bù néng bèi jù jué 。” \n",
+                                          "size":16,
+                                          "type":"txt"
+                                          },
+                                          ],
+                             },
+                             {
+                             "name":"对话2",
+                             "contents":[
+                                         {
+                                         "content":"对话2\n",
+                                         "color": "#569BEA",
+                                         "size": 20,
+                                         "type": "txt",
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“呃，那么，咱们有电影公司吗？”克拉克问。",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "他知道自己该知道这些，可是关于拍电影的一切都太抽象了。\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“罗伯特，我们没有。有一大堆电影公司说他们有兴趣，可要等哪个明星点了头，他们才肯答应。”\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“而斯万克要等他们先答应。”\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "艾伯特微微一笑。",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“没错。”B班发出一阵恍然大悟的“啊哈——”。如此完美的悖论，如此缜密的现代循环逻辑，大家一下子都明白了。\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“真见鬼。”克拉克说。\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“是啊，”艾伯特表示赞同， “真他妈见鬼。”\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                                         {
+                                         "color": "default",
+                                         "content": "“那你打算怎么办？”阿伯特问。\n",
+                                         "size": 16,
+                                         "type": "txt"
+                                         },
+                             ],
+                             },
+                             ],
+                 
+                 },
+                 {
+                 "chapter": 3,
+                 "name": "如何化零为整",
+                 "type": "chapter",
+                 "contents": [
+                              {
+                              "content": "如何化零为整\n",
+                              "color": "#FE5C31",
+                              "size": 22,
+                              "type": "txt",
+                              "alignCenter": 1,
+                              },
+                              ],
+                 "sections":[
+                             {
+                             "name":"如何",
+                             "contents": [
+                                          {
+                                          "color": "default",
+                                          "content": "大家站在奢华的自助餐台前，整装待发。\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "塞克斯一直管这叫“早午餐”，好像这样说显得他很有型很懂。\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "width": "200",
+                                          "height": "287",
+                                          "name": "pic.png",
+                                          "type": "img"
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "直到戴姆叫他闭嘴，这是午餐，哟，或者你非要较真的话，这是感恩节大餐。\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          {
+                                          "color": "default",
+                                          "content": "摆在他们面前的的确像明信片里的饕餮盛宴，不下六十英尺长的桌子上摆放着琳琅满目的食物，既有传统的节日美食，也有新式菜肴，如《星期天》杂志增刊上的广告般光芒四射。\n",
+                                          "size": 16,
+                                          "type": "txt"
+                                          },
+                                          ],
+                             }
+                             ],
+                 },
+                 ],
+}
