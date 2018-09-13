@@ -1,5 +1,5 @@
 # ZYTextReader
-基于CoreText实现的流失排版阅读器。
+基于CoreText实现的流式排版阅读器。
 
 1 自定义数据结构（仅供参考）
 
